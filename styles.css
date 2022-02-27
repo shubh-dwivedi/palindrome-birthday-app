@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600;700&display=swap');
 
 :root {
-    --primary-color: #CAFFBF;
-    --secondary-color: #a2d198;
-    --dark-secondary-color: rgb(104, 187, 66);
+    --primary-color: #4895ef;
+    --secondary-color: #3f37c9;
+    --dark-secondary-color: #560bad;
 }
 
 .container-center {
@@ -12,17 +12,19 @@
     padding: 1rem;
     text-align: center;
     font-family: "Source sans pro", sans-serif;
-    background-color: #CAFFBF;
-    border: 0.2rem solid #a2d198;
+    background-color: #4895ef;
+    border: 0.2rem solid #3f37c9;
     height: 72vh;
 }
 
 .heading-main {
     margin: 1rem auto;
+    color: white;
 }
 
 label {
     font-size: 1.5rem;
+    color: white;
 }
 
 #input-date {
@@ -31,7 +33,7 @@ label {
     margin: 1rem auto;
     width: 18rem;
     height: 2.5rem;
-    border: 5px solid rgb(104, 187, 66);
+    border: 5px solid #560bad;
     border-radius: 0.5rem;
 }
 
@@ -42,15 +44,15 @@ label {
     width: 8rem;
     height: 2.5rem;
     font-size: 1.25rem;
-    color: black;
-    background-color: var(--secondary-color);
+    color: white;
+    background-color: #3f37c9;
     border: 0.2rem solid var(--dark-secondary-color);
 }
 
 #output {
     font-size: 1.65rem;
     padding: 0.5rem;
-    color: rgb(3, 117, 3);
+    color: wheat;
 }
 
 footer {
@@ -60,10 +62,11 @@ footer {
     right: 0;
     margin: auto 0.5rem;
     text-align: center;
-    background-color: var(--secondary-color);
+    background-color: #4895ef;
     border-top: 0.2rem solid var(--secondary-color);
     border-left: 0.2rem solid var(--secondary-color);
     border-right: 0.2rem solid var(--secondary-color);
+    color: black;
 }
 
 footer ul {
@@ -79,4 +82,5 @@ footer img {
     width: 2.5rem;
     height: 2.5rem;
     margin: 0.5rem 1rem;
+    
 }
