@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600;700&display=swap');
 
+
+body {
+    margin-bottom: 0;
+}
 :root {
     --primary-color: #4895ef;
     --secondary-color: #3f37c9;
@@ -12,10 +16,16 @@
     padding: 1rem;
     text-align: center;
     font-family: "Source sans pro", sans-serif;
-    /* background-color: #4895ef; */
+    
+    min-height: max-content;
+    height: 32rem;
+}
+
+.container-main {
     background-image: url("images/patternBackground.svg");
     border: 0.2rem solid #3f37c9;
-    height: 72vh;
+    padding-bottom: calc(100vh - 44.3rem);
+    min-height: max-content;
 }
 
 .heading-main {
@@ -53,20 +63,22 @@ label {
 #output {
     font-size: 1.65rem;
     padding: 0.5rem;
-    color: grey;
+    color: rgb(75, 75, 75);
     background-color: white;
     width: fit-content;
     margin: auto;
 }
 
 footer {
-    position: absolute;
+    position: static;
     bottom: 0;
     left: 0;
     right: 0;
-    margin: auto 0.5rem;
+    margin: auto 0rem;
     text-align: center;
-    background-color: white;
+    background-color: #e5e9fc;
+    height: 9rem;
+    margin-top: 0.2rem;
     border-top: 0.2rem solid var(--secondary-color);
     border-left: 0.2rem solid var(--secondary-color);
     border-right: 0.2rem solid var(--secondary-color);
@@ -76,6 +88,9 @@ footer {
 footer ul {
     text-decoration: none;
     padding-inline-start: 0;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 1rem;
 }
 
 footer li {
