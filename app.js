@@ -214,7 +214,7 @@ function clickButtonHandler() {
         } else {
             showMessage("☹️Oops! your birthday is not a palindrome!!");
             var [daysCounter, dateFormat, palindromeDate ] = calculateNextPalidromeDate(date);
-            showExtraMessage(`\nWell the nearest palindrome date is 📆${palindromeDate.day}-${palindromeDate.month}-${palindromeDate.year} according to 📅${dateFormat} format. You missed by just #️⃣${daysCounter} days😞`);
+            showExtraMessage(`\nThe nearest palindrome date is 📆${palindromeDate.day}-${palindromeDate.month}-${palindromeDate.year} according to 📅${dateFormat}. You missed by just #️⃣${daysCounter} days`);
         }
     } else {
         showMessage("Please input date first!!");
